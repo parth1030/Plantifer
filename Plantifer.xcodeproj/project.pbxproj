@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C7A9BDA62E57ACC100718355 /* PlantiferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9BDA52E57ACC100718355 /* PlantiferApp.swift */; };
-		C7A9BDA82E57ACC100718355 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9BDA72E57ACC100718355 /* ContentView.swift */; };
+		C7A9BDA82E57ACC100718355 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9BDA72E57ACC100718355 /* Home.swift */; };
 		C7A9BDAA2E57ACC200718355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A9BDA92E57ACC200718355 /* Assets.xcassets */; };
 		C7A9BDAD2E57ACC200718355 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A9BDAC2E57ACC200718355 /* Preview Assets.xcassets */; };
+		C7A9BDB42E57BF1600718355 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9BDB32E57BF1600718355 /* MainMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7A9BDA22E57ACC100718355 /* Plantifer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plantifer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A9BDA52E57ACC100718355 /* PlantiferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantiferApp.swift; sourceTree = "<group>"; };
-		C7A9BDA72E57ACC100718355 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7A9BDA72E57ACC100718355 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C7A9BDA92E57ACC200718355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7A9BDAC2E57ACC200718355 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7A9BDB32E57BF1600718355 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				C7A9BDA52E57ACC100718355 /* PlantiferApp.swift */,
-				C7A9BDA72E57ACC100718355 /* ContentView.swift */,
+				C7A9BDA72E57ACC100718355 /* Home.swift */,
+				C7A9BDB32E57BF1600718355 /* MainMenu.swift */,
 				C7A9BDA92E57ACC200718355 /* Assets.xcassets */,
 				C7A9BDAB2E57ACC200718355 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A9BDA82E57ACC100718355 /* ContentView.swift in Sources */,
+				C7A9BDA82E57ACC100718355 /* Home.swift in Sources */,
+				C7A9BDB42E57BF1600718355 /* MainMenu.swift in Sources */,
 				C7A9BDA62E57ACC100718355 /* PlantiferApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
